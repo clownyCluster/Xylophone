@@ -1,0 +1,52 @@
+// Funnction without defined arguments and parameters
+void main(){
+    greet('Whats up', 'ClownyCluster')
+
+}
+
+void greet(string person_to_greet, string greeting_text){
+    print('$greeting_text person_to_greet')
+
+}
+
+
+// Function with defined argument and parameters
+void main(){
+    greets(greet_text :'How you doing',name :'Icy')
+}
+
+void greets({string greet_text, string name}){
+    print('$greet_text $name')
+}
+
+//Function 3
+
+void main(){
+    double result = myFunction();
+    print(result);
+}
+
+double myFunction(){
+    double pi = 3.14159;
+    return pi*2;
+}
+
+
+// Functions
+
+void main(){
+    getMilk(5);
+}
+
+void getMilk(int bottles){
+    cost = bottles*10;
+}
+
+// Function
+
+void getChange(int money){
+    int change = money - cost;
+    return change;
+}
+
+void get
